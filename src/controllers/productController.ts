@@ -10,6 +10,7 @@ class ProductController {
           title: true,
           slug: true,
           imageUrl: true,
+          description: true,
           price: true,
         },
       });
@@ -44,13 +45,6 @@ class ProductController {
               },
             },
           },
-        },
-        select: {
-          id: true,
-          title: true,
-          slug: true,
-          imageUrl: true,
-          price: true,
         },
       });
 
